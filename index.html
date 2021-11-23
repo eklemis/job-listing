@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Job Listings</title>
+		<!-- Load Json data and Javascript -->
+		<script src="Script.js" defer></script>
+		<!-- Load CSS -->
+		<link rel="stylesheet" href="Style.css" />
+	</head>
+	<body>
+		<header>
+			<section class="filter" id="jobFilter">
+				<ul>
+					<li><span>Frontend</span><a href="#"></a></li>
+					<li><span>CSS</span><a href="#"></a></li>
+					<li><span>Javascript</span><a href="#"></a></li>
+				</ul>
+				<a href="#">Clear</a>
+			</section>
+		</header>
+		<main>
+			<section class="job-list" id="jobList">
+				<div class="job-info">
+					<div class="logo-job">
+						<img src="./images/photosnap.svg" />
+						<div class="job-snapshot">
+							<div class="additional">
+								<h2>Photosnap</h2>
+								<span class="badge new">New!</span>
+								<span class="badge featured">Featured</span>
+							</div>
+							<h1 class="job-title">Senior Frontend Developer</h1>
+							<ul class="time-place">
+								<li>1d ago</li>
+								<li>.</li>
+								<li>Full Time</li>
+								<li>.</li>
+								<li>USA only</li>
+							</ul>
+						</div>
+					</div>
+					<ul class="job-tags">
+						<li><a href="#" class="tag-badge">Frontend</a></li>
+						<li><a href="#" class="tag-badge">Senior</a></li>
+						<li><a href="#" class="tag-badge">HTML</a></li>
+						<li><a href="#" class="tag-badge">CSS</a></li>
+						<li><a href="#" class="tag-badge">Javascript</a></li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Eklemis Santo Ndun</a>.
+			</div>
+		</footer>
+	</body>
+</html>
